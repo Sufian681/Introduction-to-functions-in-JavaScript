@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="myfunction()">Execute JS function</button>\
+    <button type="button" onclick="add()">Click Me!</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+      function myfunction() {
+        document.write("Function is Called");
+        document.write("<br>");
+        document.write("Sufi is a great programmer");
+      }
+      var b = 15;
+      function add() {
+        var a = 5;
+        document.getElementById("demo").innerHTML = a + b;
+      }
+      document.getElementById("demo1").innerHTML = b * b;
+    </script>
+  </body>
+</html>
